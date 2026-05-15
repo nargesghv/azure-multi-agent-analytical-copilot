@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: analytical-copilot
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: analytical-copilot
+  template:
+    metadata:
+      labels:
+        app: analytical-copilot
+    spec:
+      containers:
+        - name: api
+          image: acr.azurecr.io/analytical-copilot:latest
+          ports:
+            - containerPort: 8000

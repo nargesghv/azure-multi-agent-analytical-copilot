@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+langgraph
+langchain
+openai
+pyspark
+mlflow
+xgboost
+scikit-learn
+pandas
+azure-search-documents
+azure-identity
+azure-ai-ml
+pytest

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# MLflow
+mlruns/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Azure
+.azure/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Secrets
+.env
+.env.*
+secrets/
+*.pem
+*.key
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
